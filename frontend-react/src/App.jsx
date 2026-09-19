@@ -204,7 +204,7 @@ function App() {
 
         const response =
           await fetch(
-            "http://127.0.0.1:8000/api/analyze",
+            "https://biodiversity-intelligence-ai-a95r.onrender.com/api/analyze",
             {
 
               method: "POST",
@@ -434,7 +434,7 @@ function App() {
 
         const response =
           await fetch(
-            "http://127.0.0.1:8000/api/chat",
+            "https://biodiversity-intelligence-ai-a95r.onrender.com/api/chat",
             {
 
               method: "POST",
